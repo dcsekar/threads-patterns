@@ -1,0 +1,25 @@
+Need full Maven-based Java 25 project with the following thread concurrency submodules the current Java spring boot project
+
+
+Project Modules:
+Module 					Description
+countdown-latch  		Batch job coordination (e.g., wait for 5 tasks)
+cyclic-barrier  		Matrix row processing sync
+phaser  				Multi-phase game round example
+semaphore  				ATM access with 3 terminals
+exchanger  				Trade exchange between two threads
+threadlocal  			Per-thread logging context
+reentrantlock  			Shared resource with fairness toggle
+blockingqueue  			Producer-consumer file writer
+forkjoinpool  			Any real time example
+completablefuture  		Async API call chain with error handlingEach
+
+
+Each module should include:
+	Clear logging with thread names Step-by-step explanations in code
+	Provide Unit test to simulate behavior
+
+Create the thread tasks as separate class - dont create in anonymous callable or supplier. Need clear class separations with real time examples.
+
+Provide readme-thread-patterns file for comparisons of these models about usage, advantage, disadvantages.
+Also provide visuals about each thread sub models topics
